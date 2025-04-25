@@ -57,7 +57,7 @@ public class GaleriaArte implements GestionStock<Obra> {
 	
 	@Override
 	public void saveAll(Obra[] t) {
-		// TODO Auto-generated method stub
+		obras.addAll(t);
 
 	}
 
